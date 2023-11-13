@@ -5,6 +5,7 @@
 select * from stg.product_master where categoria = 'Electro'
 
 -- 2. Cuales son los producto producidos en China?
+SELECT origin FROM stg.product_master WHERE origin = 'China';
 
 -- 3. Mostrar todos los productos de Electro ordenados por nombre.
 
